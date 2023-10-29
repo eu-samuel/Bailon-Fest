@@ -1,6 +1,8 @@
 export const MFooter = () => {
-    
-    <footer className="mobile-footer">
-    </footer>
+
+    return (
+        <footer className="mobile-footer">
+        </footer>
+    )
 
 }

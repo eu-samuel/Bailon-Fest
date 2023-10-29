@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.page {
+ @apply w-[100vw] min-h-[100vh] flex
+}
+
+
+.desktop-header{
+    @apply absolute w-[100vw] top-[2vh] h-[10vh] flex items-center justify-between
+}
+
+.desktop-li{
+    @apply text-[15px] flex items-center gap-[.5vw] font-montserrat font-[500]
+    hover:text-[#E89C00] hover:font-bold duration-[350ms] cursor-pointer
+}

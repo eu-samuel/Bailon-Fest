@@ -1,6 +1,7 @@
 export const DFooter = () => {
-    
-    <footer className="desktop-footer">
-    </footer>
 
+    return (
+        <footer className="desktop-footer">
+        </footer>
+    )
 }

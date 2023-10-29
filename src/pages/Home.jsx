@@ -1,10 +1,13 @@
+import { DHeader } from '../components/desktop/header'
+import { HomeCarousel } from '../components/regular/carousel'
 
 export const Home = () => {
 
     return (
         <>
-            <div className={"page relative top-[15vh]"}>
-                aaa
+            <DHeader />
+            <div className="page items-center justify-center">
+            <HomeCarousel/>
             </div>
         </>
 
