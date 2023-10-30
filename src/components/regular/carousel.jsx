@@ -8,9 +8,9 @@ export const HomeCarousel = () => {
     const [carouselFlow, setCarouselFlow] = useState(2)
 
     return (
-        <div className="w-[35vw] ml-[42vw]">
-            <img src={CarouselBG} className="absolute z-10 w-[42.6vw] h-[76vh]
-             top-[11.5vh] right-[8vw]" alt="background"/>
+        <div className="w-[30vw] ml-[61.9vw]">
+            <img src={CarouselBG} className="absolute z-10 w-[36.8vw] h-[66vh]
+             top-[16.3vh] right-[5vw]" alt="background"/>
             <Carousel
                 axis='horizontal'
                 infiniteLoop={true}

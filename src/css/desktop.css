@@ -16,3 +16,8 @@
     @apply text-[15px] flex items-center gap-[.5vw] font-montserrat font-[500]
     hover:text-[#E89C00] hover:font-bold duration-[350ms] cursor-pointer
 }
+
+.desktop-social-button{
+    @apply bg-[#e87c00d6] flex items-center justify-center gap-[.3vw] p-1 rounded-3xl 
+    shadow-sm shadow-orange-900 text-[14px] font-semibold hover:bg-[#e87400bc]
+}

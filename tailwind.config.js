@@ -5,8 +5,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'carousel': "url('./src/images/carousel/background.png')"
-       },
+        'carousel': "url('./src/images/carousel/background.png')",
+        'home': "url('./src/images/home/bg.png')"
+      },
       fontFamily: {
         'sans': ['ui-sans-serif', 'system-ui'],
         'serif': ['ui-serif', 'Georgia'],
